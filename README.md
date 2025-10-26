@@ -1,25 +1,40 @@
-# Software Engineer Student Syllabus
+# Software Engineering Bootcamp Syllabus
 
-layering
+_postscript: this document is not AI generated_ and **yet to be completed**.
 
-3-tier software architecture
+The first section consists of multiple chapters built around the [3-tier software architecture](https://en.wikipedia.org/wiki/Multitier_architecture) containing:
 
+0. [requirements engineering](https://en.wikipedia.org/wiki/Requirements_engineering) and pre-requisites refreshers
 1. controller
 2. service
 3. repository
+4. cross-cutting concerns
+5. testing
+6. security
+7. building & deployment
+8. wrapping things up
 
+There are many overlapping concepts that do not belong to a specific chapter but will be discussed throughout either the instructions themselves or home-projects, including but not limited to:
 
-authentication/authorization
-- OTP authorization (probably discussed in the end)
-resource access control list (ACL): RBAC, ABAC, PBAC
+- feeling at home with the terminal
+- 12 factor app
+- collaboration within software development (git best practices)
+- software engineer toolings
 
-building secure backends
-- User personal information privacy PII
+## 0. requirements engineering and problem description
 
-common patterns for resource serving
-pagination
+we will talk about a real-world problem, design a system and continue implementing during the next chapters.
 
-cross cutting concern
+## 1. Controller
+- inter-service communication (HTTP, gRPC)
+
+## 2. Service
+
+## 3. Repository
+
+- common patterns for resource serving such as pagination
+
+## 4. Cross-cutting concerns
 
 observability
 - logging
@@ -27,33 +42,37 @@ observability
 - metrics
 
 
-software development life cycle (SDLC)
+## 5. Testing
 
-12 factor app
-
-software engineering tooling
-- docker and best practices
-
-microservices
-- inter-service communication (HTTP, gRPC)
-
-deploying applications
-
-CI/CD continues integration/ continues delivery
+- TDD, thinking in assertions
+- unit tests, integrations tests, E2E tests
 
 
-caching?????
+## 6. Security
 
-```txt
-Fiber, 		Routing
-JSON and Serialization		Middlewares
-```
+- foundations of cybersecurity
+- authentication & authorization
+- resource access control list (ACL): RBAC, ABAC, PBAC
+- users' personally identifiable information ([PII](https://en.wikipedia.org/wiki/Personal_data))
 
-```txt
-Authentication  Environment Variables
-OTP Password Hashing    Logging
-```
+## 7. Building & deployment
 
-```txt
-Security for Backend	CORS and Static content	Authorization, Admin
-```
+- docker/docker compose and best practices
+- writing Dockerfiles correctly
+- CI/CD continues integration/ continues delivery
+- deployment within Github Actions
+- zero-downtime deployments
+
+## 8. Wrapping things up
+
+- discuss what we learned so far
+- software development life cycle (SDLC)
+
+
+
+## Where to go from here?
+
+
+
+---
+[SCRATCHPAD below]
